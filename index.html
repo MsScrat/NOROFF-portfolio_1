@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website displaying my proudest work">
+    <title>Miriam Dahlberg | Home </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/effects.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <script src="js/slider.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h1>Miriam Dahlberg</h1></a>
+            <div class="navButtons">
+                <a href="html/projects.html">Projects</a>
+                <a href="html/about.html">About</a>
+                <a href="html/contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="featuredProjects">
+            <h1>Featured Projects</h1>
+            <div class="sliderContainer">
+                <div class="slide fade">
+                    <img src="images/ShePlaysToo_Screenshot.png">
+                </div>
+                <div class="slide fade">
+                    <img src="images/RainyDays_Screenshot.png">
+                </div>
+                <div class="slide fade">
+                    <img src="images/CommunityScienceMuseum_Screenshot.png">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </section>
+    </main>
+</body>
+</html>
