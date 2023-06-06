@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    color: black;
-    background-color: #ebebeb;
+    color: white;
+    background-color: #232323;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -13,26 +14,92 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 900px;
+    justify-content: space-between;
     position: fixed;
-    background-color: white;
+    background-color: #232323;
+}
+
+nav h1 {
+    padding-left: 30px;
 }
 
 nav a {
     text-decoration: none;
     padding: 10px;
+    color: white;
+}
+
+.navButtons a {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.navRight {
+    padding-right: 30px;
+}
+
+
+/* FRONT PAGE - Introduction */
+
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+.introduction h1 {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.introduction h2 {
+    font-size: 60px;
+    margin: 0;
+    width: 100px;
+}
+
+.introduction h3 {
+    font-size: 17px;
+    color: lightgreen;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.introduction p {
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.introduction a {
+    text-decoration: none;
     color: black;
+    background-color: lightgreen;
+    padding: 7px 25px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.introduction img {
+    width: 400px;
+}
+
+
+/* FRONT PAGE - Featured projects */ 
+
+.featuredProjects {
+    height: 90vh;
 }
 
 .featuredProjects h1 {
     text-align: center;
 }
 
-/* SLIDER */
+
+/* FRONT PAGE - Slider */
 
 .sliderContainer {
-  max-width: 800px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }

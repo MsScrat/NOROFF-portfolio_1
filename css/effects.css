@@ -3,16 +3,21 @@
     opacity: 50%;
 }
 
-/* SLIDER */ 
+.introduction a:hover {
+    color: white;
+}
+
+
+/* FRONT PAGE - Slider */ 
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: lightgreen;
 }
 
 .active,
 .dot:hover {
-  background-color: #717171;
+  background-color: lightgreen;
 }
 
 /* Fading animation */
