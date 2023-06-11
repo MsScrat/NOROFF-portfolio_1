@@ -7,17 +7,29 @@
     color: white;
 }
 
+.currentPage {
+    color: lightgreen;
+}
+
+.card img:hover {
+    scale: 1.1;
+}
+
+.links a:hover {
+    opacity: 50%;
+}
+
 
 /* FRONT PAGE - Slider */ 
 
 .prev:hover,
 .next:hover {
-  background-color: lightgreen;
+  background-color: black;
 }
 
 .active,
 .dot:hover {
-  background-color: lightgreen;
+  background-color: white;
 }
 
 /* Fading animation */
